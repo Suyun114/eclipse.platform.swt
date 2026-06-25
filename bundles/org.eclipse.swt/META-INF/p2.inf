@@ -44,3 +44,8 @@ requires.9.namespace = org.eclipse.equinox.p2.iu
 requires.9.name = org.eclipse.swt.gtk.linux.riscv64
 requires.9.range = [$version$,$version$]
 requires.9.filter = (&(osgi.os=linux)(osgi.ws=gtk)(osgi.arch=riscv64)(!(org.eclipse.swt.buildtime=true)))
+
+requires.10.namespace = org.eclipse.equinox.p2.iu
+requires.10.name = org.eclipse.swt.gtk.linux.loongarch64
+requires.10.range = [$version$,$version$]
+requires.10.filter = (&(osgi.os=linux)(osgi.ws=gtk)(osgi.arch=loongarch64)(!(org.eclipse.swt.buildtime=true)))
